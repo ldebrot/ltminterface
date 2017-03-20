@@ -1,0 +1,44 @@
+[
+{
+"skill": "ranger",
+"id": 1,
+"createdAt": "2017-03-02T12:20:27.000Z",
+"updatedAt": "2017-03-02T12:20:27.000Z"
+},
+{
+"skill": "manger",
+"id": 2,
+"createdAt": "2017-03-02T12:20:27.000Z",
+"updatedAt": "2017-03-02T12:20:27.000Z"
+},
+{
+"skill": "lire",
+"id": 3,
+"createdAt": "2017-03-02T12:20:27.000Z",
+"updatedAt": "2017-03-02T12:20:27.000Z"
+},
+{
+"skill": "manger",
+"id": 4,
+"createdAt": "2017-03-02T12:20:27.000Z",
+"updatedAt": "2017-03-02T12:20:27.000Z"
+},
+{
+"skill": "ranger",
+"id": 5,
+"createdAt": "2017-03-02T12:20:27.000Z",
+"updatedAt": "2017-03-02T12:20:27.000Z"
+},
+{
+"skill": "lire",
+"id": 6,
+"createdAt": "2017-03-02T12:20:27.000Z",
+"updatedAt": "2017-03-02T12:20:27.000Z"
+},
+{
+"skill": "courir",
+"id": 7,
+"createdAt": "2017-03-02T12:20:27.000Z",
+"updatedAt": "2017-03-02T12:20:27.000Z"
+}
+]

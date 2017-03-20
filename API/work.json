@@ -1,0 +1,20 @@
+[
+{
+"work": "serveur",
+"id": 1,
+"createdAt": "2017-03-02T11:52:56.000Z",
+"updatedAt": "2017-03-02T11:52:56.000Z"
+},
+{
+"work": "consultant",
+"id": 2,
+"createdAt": "2017-03-02T11:52:56.000Z",
+"updatedAt": "2017-03-02T11:52:56.000Z"
+},
+{
+"work": "maitre d'ouvrage",
+"id": 3,
+"createdAt": "2017-03-02T11:52:56.000Z",
+"updatedAt": "2017-03-02T11:52:56.000Z"
+}
+]

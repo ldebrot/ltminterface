@@ -1,0 +1,218 @@
+/* THIS CSS FILE INCLUDES:
+ * - INTERFACE DROPDOWN BUTTON
+ * - 
+ * 
+ */
+
+
+/* LTM INTERFACE DROPDOWN BUTTON */
+
+.criteriabar {
+	position: relative;
+	float: left;
+	height: 80px;
+}
+
+/* SEPARATORS */
+.criteriabarseparator {
+	height: 80px;	
+}
+
+.twenty {
+	height: 20px;
+}
+
+/* TEMPORARY CRITERION */
+
+.temporarycriterionwrappertop {
+	border-style: solid;
+	border-color: #CCC;
+	border-width: 1px 1px 0px 1px;
+	padding: 16px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.temporarycriterionwrapperbottominactive {
+	border-style: solid;
+	border-color: #CCC;
+	border-width: 0px 1px 1px 1px;
+	border-radius: 0px 0px 10px 10px;
+	text-align: center;
+	font-size: xx-large;
+	color: #FFFFFF;
+	background:#FFFFFF;
+}
+
+.temporarycriterionwrapperbottomactive {
+	border-style: solid;
+	border-color: #CCC;
+	border-width: 0px 1px 1px 1px;
+	border-radius: 0px 0px 10px 10px;
+	background:#EEEEEE;
+	text-align: center;
+	font-size: xx-large;
+	color: #CCC;
+    -webkit-transition: background 1s, color 1s; /* Safari */
+    transition: background 1s, color 1s;
+}
+
+.temporarycriterionwrapperbottomactive:hover {
+	color: #FFFFFF;
+	background: #CCC;
+}
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+    border-radius: 10px 0px 0px 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: "Noto Sans";
+    float:left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* TEMPORARY SELECTION CRITERIA*/
+.selction-ajax {
+	padding: 3px 10px;
+	border-radius: 8px;
+	display: inline;
+	opacity:1;
+	margin: 0px 5px;
+    -webkit-transition: opacity 1s; /* Safari */
+    transition: opacity 1s;
+}
+
+.deleteable {
+}
+
+.deleteable:hover {
+	color:#AA0000 !important;
+	background-color:#EEEEEE !important;
+	cursor:crosshair;
+    -webkit-transition: color 1s, background-color 1s; /* Safari */
+    transition: color 1s, background-color 1s;
+}
+
+/* SELECTION CRITERIA */
+
+.selectioncriteria {
+	border-style: solid;
+	border-color: #CCC;
+	border-width: 1px;
+	border-radius: 10px;
+	min-height:20px;
+	padding: 20px;
+	line-height: 2;
+}
+
+/* RESULT AREA */ 
+
+.resultwrapper {
+	border-style: solid;
+	border-color: #CCC;
+	border-width: 1px;
+	border-radius: 10px;
+	min-height:20px;
+	padding: 20px;
+	line-height: 2;
+}
+
+.resultwrapper::after {
+	content:"";
+	clear:both;
+	display:table;
+}
+
+.resultbox {
+	background:#FFFFFF;
+	width:20%;
+	max-width:100px;
+	min-width:80px;
+	margin:2%;
+	float:left;
+    -webkit-transition: background 1s; /* Safari */
+    transition: background 1s;
+}
+
+.resultbox:hover {
+	background:#CCC;
+}
+
+.resultpicture {
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10%;
+	height:auto;
+}
+
+.resultcaption {
+	text-align: center;
+}
+
+.wrapitall{
+	padding:20px;
+}
+
+.unvisible {
+	opacity:0;
+}
+
+.introductoryphrase {
+	float:left;
+	padding-right:5px;
+}
+
+body { font-family: sans-serif; font-size: 14px; line-height: 1.6em; margin: 0; padding: 0; }
+.container { width: 800px; margin: 0 auto; }
+
+.autocomplete-suggestions { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+input { font-size: 16px; padding:16px; border: 1px solid #CCC; display: block; border-radius: 0px 10px 10px 0px;}

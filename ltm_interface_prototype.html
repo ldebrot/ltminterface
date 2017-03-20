@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="fr">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="interface.css" media="screen" />
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="autocomplete/scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="autocomplete/scripts/jquery.mockjax.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="autocomplete/src/jquery.autocomplete.js"></script>
+    <link href="autocomplete/content/styles.css" rel="stylesheet" />
+    <script type="text/javascript" src="variables/skills.js"></script>
+    <script type="text/javascript" src="variables/situations.js"></script>
+    <script type="text/javascript" src="variables/jobs.js"></script>
+    <script type="text/javascript" src="variables/locations.js"></script>
+	<script type="text/javascript" src="interface.js"></script>
+	<title>Title Goes Here</title>
+</head>
+<body>
+	<div class="wrapitall">
+		<div class="dropdown">
+			<button id="dropbtn" class="dropbtn"><i class="fa fa-wrench" aria-hidden="true"></i> métier</button>
+			<div id="dropdowncontent" class="dropdown-content"></div>
+		</div>
+			<div class="criteriabar">
+		        <input type="text" name="suggestionfield" id="autocomplete-ajax" style="z-index: 2; background: transparent;position:absolute;"/>
+		        <input type="text" name="suggestionfield" id="autocomplete-ajax-x" disabled="disabled" style="color: #CCC; position: absolute; background: transparent; z-index: 1;"/>
+			</div>
+		<div class="criteriabarseparator"></div>
+		<div class="temporarycriterionwrapper" id="temporarycriterionwrapper">
+			<div class="temporarycriterionwrappertop">
+				<div class="introductoryphrase" id="introductoryphrase">Je cherche quelqu'un qui... </div>
+				<div class="selction-ajax" id="temporarycriterion"></div>
+			</div>
+			<div class="temporarycriterionwrapperbottominactive" id="temporarycriterionwrapperbottom" onclick="ldbaddtoselection()">
+				<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+			</div>
+		</div>
+		<div class="separator twenty"></div>		
+		<div class="selectioncriteria" id="selectioncriteria">
+				<div class="selectionphrase" id="selectionphrase">Mes critères : </div>						
+		</div>
+		<div class="separator twenty"></div>		
+		<div class="resultwrapper" id="resultwrapper">
+		</div>
+	</div>	
+</body>
+</html> 
+

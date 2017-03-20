@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="fr">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="interface.css" media="screen" />
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="autocomplete/scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+<script>
+	$.ajax({
+    type: 'GET',
+    url: 'API/profils.json',
+    success: function(data) {
+	    var ldbjson = JSON.parse(data);
+	    alert(ldbjson);
+    },
+    failure: function(data) {
+	    alert("moungou");
+    }, 
+    dataType: 'text'
+	});
+</script>
+</head>
+<body>
+Fuck this shit
+</body>
+</html> 

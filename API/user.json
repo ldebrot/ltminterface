@@ -1,0 +1,101 @@
+[
+{
+"username": "speudo1",
+"firstname": "firstname 1",
+"lastname": "lastname 1",
+"email": "email1@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 1,
+"createdAt": "2017-01-10T15:09:11.000Z",
+"updatedAt": "2017-01-10T15:09:11.000Z"
+},
+{
+"username": "speudo2",
+"firstname": "firstname 2",
+"lastname": "lastname 2",
+"email": "email2@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 2,
+"createdAt": "2017-07-08T14:09:11.000Z",
+"updatedAt": "2017-07-08T14:09:11.000Z"
+},
+{
+"username": "speudo3",
+"firstname": "firstname 3",
+"lastname": "lastname 3",
+"email": "email3@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 3,
+"createdAt": "2017-01-02T15:09:12.000Z",
+"updatedAt": "2017-01-02T15:09:12.000Z"
+},
+{
+"username": "speudo4",
+"firstname": "firstname 4",
+"lastname": "lastname 4",
+"email": "email4@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 4,
+"createdAt": "2017-04-06T14:09:12.000Z",
+"updatedAt": "2017-04-06T14:09:12.000Z"
+},
+{
+"username": "speudo5",
+"firstname": "firstname 5",
+"lastname": "lastname 5",
+"email": "email5@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 5,
+"createdAt": "2017-07-20T14:09:12.000Z",
+"updatedAt": "2017-07-20T14:09:12.000Z"
+},
+{
+"username": "speudo6",
+"firstname": "firstname 6",
+"lastname": "lastname 6",
+"email": "email6@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 6,
+"createdAt": "2017-06-02T14:09:12.000Z",
+"updatedAt": "2017-06-02T14:09:12.000Z"
+},
+{
+"username": "speudo7",
+"firstname": "firstname 7",
+"lastname": "lastname 7",
+"email": "email7@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 7,
+"createdAt": "2017-08-17T14:09:12.000Z",
+"updatedAt": "2017-08-17T14:09:12.000Z"
+},
+{
+"username": "speudo8",
+"firstname": "firstname 8",
+"lastname": "lastname 8",
+"email": "email8@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 8,
+"createdAt": "2017-05-05T14:09:12.000Z",
+"updatedAt": "2017-05-05T14:09:12.000Z"
+},
+{
+"username": "speudo9",
+"firstname": "firstname 9",
+"lastname": "lastname 9",
+"email": "email9@mail.fr",
+"enabled": true,
+"status": "user",
+"id": 9,
+"createdAt": "2017-09-14T14:09:12.000Z",
+"updatedAt": "2017-09-14T14:09:12.000Z"
+}
+]
